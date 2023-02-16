@@ -23,9 +23,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Portfolio: setup and mobile first <a name="about-project"></a>
 
-In this project, you will set up a "Hello world" repository. No complex coding is required for this exercise. Your goal here is to master all of the tools and best practices you learned about in previous steps. You will be using them in all Microverse projects and most likely in your future job as well, so it is important to know them!
+For the first milestone in the process of creating your portfolio website, you will:
+
+- Set up a new repository and prepare it for development using best practices (e.g. linters).
+- Build the first 2 sections of the mobile website using the template you chose in the previous step.
 
 ## 🛠 Built With <a name="built-with"></a>
 
