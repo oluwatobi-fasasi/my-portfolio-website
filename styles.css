@@ -67,13 +67,10 @@ section a {
   text-decoration: none;
 }
 
-section a:hover{
+section a:hover {
   background-color: #001f6d;
 }
 
 section a:active {
   background-color: #0048fd;
 }
-
-
-
