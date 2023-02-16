@@ -48,7 +48,7 @@ In this project, you will set up a "Hello world" repository. No complex coding i
 
 ### Setup
 
-- Create a "Hello world" repository.
+- Create a "My Portfolio Website" repository.
 - Clone the repository into your local machine.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
