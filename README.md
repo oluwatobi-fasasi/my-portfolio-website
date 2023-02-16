@@ -97,6 +97,6 @@ I would like to thank my code partners, standup team members.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/oluwatobi-fasasi/Hello-world/blob/add-license-1/LICENSE.md) licensed.
+This project is [MIT](https://github.com/oluwatobi-fasasi/my-portfolio-website/blob/add-license-1/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
