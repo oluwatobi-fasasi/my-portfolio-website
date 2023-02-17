@@ -86,8 +86,8 @@ h1 {
   background-color: #1a2236;
 }
 
-.loto:first-child{
-  background-color:aliceblue;
+.loto:first-child {
+  background-color: aliceblue;
 }
 
 .intro a:hover {
@@ -100,7 +100,6 @@ h1 {
 
 .rectangle {
   width: 375px;
-  height: 399.47pxpx;
   margin-top: 50px;
 }
 
@@ -221,10 +220,11 @@ h1 {
   background-color: #0048fd;
 }
 
-.lang{
+.lang {
   margin-top: 60px;
   width: 330px;
   height: 289px;
+  background-color: #1c528a;
 }
 
 .framework,
@@ -232,10 +232,6 @@ h1 {
   width: 330px;
   height: 289px;
   margin-top: 20px;
-}
-
-.lang {
-  background-color: #1c528a;
 }
 
 .framework {
@@ -262,7 +258,7 @@ h1 {
 .lang ul,
 .framework ul,
 .skills ul {
-  padding-left:70px;
+  padding-left: 70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -271,23 +267,23 @@ h1 {
   color: #fff;
 }
 
-span{
+span {
   margin-left: -9px;
 }
 
-.lan-img{
+.lan-img {
   display: block;
   padding-left: 69%;
   margin-top: -29px;
 }
 
-.fra-img{
+.fra-img {
   display: block;
   padding-left: 72%;
   margin-top: -49px;
 }
 
-.ski-img{
+.ski-img {
   display: block;
   padding-left: 69%;
   margin-top: -55px;
