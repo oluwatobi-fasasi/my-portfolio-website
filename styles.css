@@ -6,11 +6,11 @@ body {
   box-sizing: border-box;
 }
 
-.main-wrapper {
+main {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  width: 320px;
+  width: 375px;
 }
 
 header {
@@ -62,7 +62,7 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding: 13px 65px;
+  padding: 13px 90px;
   text-decoration: none;
 }
 
@@ -75,13 +75,19 @@ h1 {
   line-height: 24px;
   text-align: center;
   padding: 10px;
+  padding-left: 20px;
   text-decoration: none;
   border: 0.45px solid white;
   margin-left: 16px;
 }
 
 .loto {
-  background-color: #f1f1f1;
+  width: 375px;
+  background-color: #1a2236;
+}
+
+.loto:first-child{
+  background-color:aliceblue;
 }
 
 .intro a:hover {
@@ -92,12 +98,11 @@ h1 {
   background-color: #0048fd;
 }
 
-/* .rectangle {
-  background-color: rgb(119, 84, 84);
-  width: 320px;
-  height: 160px;
-  margin-top: 30px;
-} */
+.rectangle {
+  width: 375px;
+  height: 399.47pxpx;
+  margin-top: 50px;
+}
 
 .project h2 {
   color: #1a2236;
@@ -115,8 +120,8 @@ h1 {
 }
 
 .works div {
-  width: 320px;
-  height: 342px;
+  width: 375px;
+  height: 160px;
   background-color: #1a2236;
 }
 
@@ -199,7 +204,7 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding: 13px 65px;
+  padding: 13px 100px;
   text-decoration: none;
 }
 
@@ -216,12 +221,17 @@ h1 {
   background-color: #0048fd;
 }
 
-.lang,
+.lang{
+  margin-top: 60px;
+  width: 330px;
+  height: 289px;
+}
+
 .framework,
 .skills {
-  width: 289px;
+  width: 330px;
   height: 289px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .lang {
@@ -252,12 +262,33 @@ h1 {
 .lang ul,
 .framework ul,
 .skills ul {
-  padding-left: 65px;
+  padding-left:70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
   color: #fff;
+}
+
+span{
+  margin-left: -9px;
+}
+
+.lan-img{
+  display: block;
+  padding-left: 69%;
+  margin-top: -29px;
+}
+
+.fra-img{
+  display: block;
+  padding-left: 72%;
+  margin-top: -49px;
+}
+
+.ski-img{
+  display: block;
+  padding-left: 69%;
+  margin-top: -55px;
 }
