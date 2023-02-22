@@ -63,6 +63,14 @@ For the first milestone in the process of creating your portfolio website, you w
 - GitHub: [@Fasasi](https://github.com/oluwatobi-fasasi)
 - LinkedIn: [Fasasi](https://www.linkedin.com/in/fasasi-abdulwasih-oluwatobi-129a8b109/)
 
+👤 **Author2**
+
+- GitHub: [@KAYEMBAJONATHAN](https://github.com/KAYEMBAJONATHAN)
+
+👤 **Author3**
+
+- GitHub: [@Kwaku28](https://github.com/Kwaku28)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
