@@ -154,42 +154,65 @@
         </div>
       </section>
       <section class="form-sect">
-        <img src="images/Shape.png" alt="shape" class="shape" />
-        <img src="images/Shape (1).png" alt="site-logo" class="logo" />
-         
-        <!-- <form action="https://formspree.io/f/mzbwnlbg" method="post">
-            <label for="fname"></label>
-            <input 
-              type="text"
-              name="fname"
-              id="fname"
-              placeholder="Full name"
-              maxlength="30"
-              required
-            /><br />
-            <label for="email"></label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email address"
-              required
-            />
-            <br />
-            <textarea
-                name="message"
-                id="type"
-                cols="40"
-                rows="7"
-                maxlength="500"
-                placeholder="Enter Text Here"
-                required>
-              </textarea
-              ><br />
-              <input type="submit" value="Get in touch" class="button" />
-          </form> -->
+        <div>
+            <img src="images/Shape.png" alt="shape" class="shape" />
+            <img src="images/Shape (1).png" alt="site-logo" class="logo" />
+        </div>
+        <div class="text">
+        <h2>Get started</h2>
+        <p class="get-started">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+        </p>
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name"></label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="user_name" 
+                    value="  Anastasiia"
+                    maxlength="30"
+                    required />
+                    <span class="name">Your name</span>
+              </li><br>
+              <li>
+                <label for="mail"></label>
+                <input 
+                    type="email" 
+                    id="mail" 
+                    name="user_email" 
+                    required/>
+                  <span class="email">Your email</span>
+              </li><br>
+              <li>
+                <label for="msg"></label>
+                <textarea 
+                    id="msg" 
+                    name="user_message"
+                    maxlength="500"
+                    required>
+                </textarea>
+                <span class="lome">Enter your message here...</span>
+              </li>
+            </ul>
+            <a href="https://microverse.org" class="button">Start collaboration</a>
+        </form>
       </section>
-      
+      <footer>
+        <div>
+          <a href="https://microverse.org"><p>Get my Resume <img src="images/Union2.png" alt="cv" class="fcv"></p></a>
+        </div>
+        <div class="social">
+          <img src="images/ic_stackoverflow.svg" alt="stackoverflow">
+          <img src="images/ic_github.svg" alt="github">
+          <img src="images/ic_twitter.svg" alt="twitter">
+          <img src="images/ic_linkedin.svg" alt="linkedin">
+          <img src="images/ic_medium.svg" alt="medium">
+          <img src="images/ic_angellist.svg" alt="angellist">
+        </div>
+      </footer>
     </div>
   </body>
 </html>
