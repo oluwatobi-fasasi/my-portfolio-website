@@ -6,6 +6,9 @@ body {
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
 .main-wrapper {
   display: flex;
   flex-direction: column;
@@ -164,11 +167,13 @@ h1 {
   background-color: #0048fd;
 }
 
-.about-page {
+.about-page,
+.form-sect .text {
   padding-left: 16px;
 }
 
-.about-page h2 {
+.about-page h2,
+.form-sect h2 {
   color: #1a2236;
   font-family: 'Playfair Display', serif;
   font-style: normal;
@@ -265,4 +270,115 @@ h1 {
 .form-sect{
   margin-top: 50px;
   background-color: #F9F9FA;
+}
+
+form {
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+form ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 16px;
+}
+
+form input{
+  width: 285px;
+  height: 45px;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+.email,
+.name {
+  display: block;
+  margin-top: -49px;
+  margin-left: 10px;
+  font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+color: #7D7C84;
+}
+
+form li{
+  margin-bottom: 30px;
+}
+
+textarea{
+  width: 285px;
+  height: 112px;
+  border: 1px solid #DFDFE0;
+  border-radius: 4px;
+}
+
+.lome{
+  display: block;
+  margin-top: -110px;
+  margin-left: 10px;
+  font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #7D7C84;
+}
+
+form a {
+  display: block;
+  background-color: #1a2236;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px 2px;
+  text-decoration: none;
+  margin-top: 120px;
+  margin-left: 16px;
+  width: 285px;
+}
+
+form a:hover {
+  background-color: #001f6d;
+}
+
+form a:active {
+  background-color: #0048fd;
+}
+
+footer{
+
+  background-color: #1a2236;
+  padding-left: 16px;
+  padding-top: 20px;
+}
+
+footer p{
+  font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #92DCDC;
+}
+
+.fcv{
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: -5px;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  padding-bottom: 60px;
+}
+
+.social img{
+  margin-top: 10px;
 }
