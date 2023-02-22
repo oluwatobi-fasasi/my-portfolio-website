@@ -57,7 +57,8 @@ h1 {
   margin-bottom: 25px;
 }
 
-form a {
+form button {
+  margin-top: 70px;
   display: block;
   background-color: #1a2236;
   color: #fff;
@@ -68,10 +69,8 @@ form a {
   line-height: 24px;
   text-align: center;
   padding: 10px 2px;
-  text-decoration: none;
-  margin-top: 120px;
-  margin-left: 16px;
-  width: 285px;
+  width: 289px;
+  border: none;
 }
 
 .intro a {
@@ -105,11 +104,11 @@ form a {
   background-color: #f1f1f1;
 }
 
-form a:hover {
+form button:hover {
   background-color: #001f6d;
 }
 
-form a:active {
+form button:active {
   background-color: #0048fd;
 }
 
@@ -154,6 +153,8 @@ form a:active {
 }
 
 form ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   padding-left: 0;
   margin-left: 16px;
