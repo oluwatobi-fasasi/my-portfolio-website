@@ -54,6 +54,20 @@ h1 {
   margin-bottom: 25px;
 }
 
+footer a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: -5px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+  padding-top: 30px;
+}
+
 .intro a {
   background-color: #1a2236;
   color: #fff;
@@ -171,6 +185,7 @@ h1 {
 
 .about-page {
   padding-left: 16px;
+  margin-left: 6px;
 }
 
 .about-page h2 {
@@ -288,4 +303,109 @@ span {
   display: block;
   padding-left: 69%;
   margin-top: -55px;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background: #f9f9fa;
+}
+
+section .text h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  padding-left: 35px;
+}
+
+section .text p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #1a2236;
+  padding-left: 35px;
+  padding-right: 20px;
+  margin-top: -20px;
+  text-align: left;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+section form input {
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  width: 299px;
+  height: 52px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+form textarea {
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  width: 299px;
+  height: 112px;
+  margin-left: 35px;
+  margin-top: -5px;
+}
+
+form button {
+  margin-top: 20px;
+  margin-left: 35px;
+  display: block;
+  background-color: #1a2236;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px 2px;
+  width: 303px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0048fd;
+}
+
+form button:active {
+  background-color: #1c528a;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
+  padding-left: 16px;
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+.fcv {
+  display: inline-block;
+  margin-bottom: -5px;
 }
