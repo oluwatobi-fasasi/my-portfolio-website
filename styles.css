@@ -10,7 +10,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  width: 375px;
+  width: 100%;
 }
 
 header {
