@@ -6,15 +6,11 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-.main-wrapper {
+main {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  width: 320px;
+  width: 375px;
 }
 
 header {
@@ -28,6 +24,7 @@ header {
 
 .menu {
   margin-bottom: 30px;
+  margin-right: 15px;
 }
 
 .intro {
@@ -57,20 +54,18 @@ h1 {
   margin-bottom: 25px;
 }
 
-form button {
-  margin-top: 70px;
-  display: block;
-  background-color: #1a2236;
-  color: #fff;
+footer a {
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: -5px;
+  text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
-  padding: 10px 2px;
-  width: 289px;
-  border: none;
+  color: #92dcdc;
+  padding-top: 30px;
 }
 
 .intro a {
@@ -82,7 +77,7 @@ form button {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding: 13px 65px;
+  padding: 13px 90px;
   text-decoration: none;
 }
 
@@ -95,21 +90,19 @@ form button {
   line-height: 24px;
   text-align: center;
   padding: 10px;
+  padding-left: 20px;
   text-decoration: none;
   border: 0.45px solid white;
   margin-left: 16px;
 }
 
 .loto {
-  background-color: #f1f1f1;
+  width: 375px;
+  background-color: #1a2236;
 }
 
-form button:hover {
-  background-color: #001f6d;
-}
-
-form button:active {
-  background-color: #0048fd;
+.loto:first-child {
+  background-color: aliceblue;
 }
 
 .intro a:hover {
@@ -118,6 +111,11 @@ form button:active {
 
 .intro a:active {
   background-color: #0048fd;
+}
+
+.rectangle {
+  width: 375px;
+  margin-top: 50px;
 }
 
 .project h2 {
@@ -136,8 +134,8 @@ form button:active {
 }
 
 .works div {
-  width: 320px;
-  height: 342px;
+  width: 375px;
+  height: 160px;
   background-color: #1a2236;
 }
 
@@ -152,24 +150,12 @@ form button:active {
   margin-bottom: 0;
 }
 
-form ul {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 16px;
-}
-
 .works ul {
   display: flex;
   list-style-type: none;
   justify-content: left;
   margin-bottom: 30px;
   margin-top: 10px;
-}
-
-form li {
-  margin-bottom: 30px;
 }
 
 .works li {
@@ -197,13 +183,12 @@ form li {
   background-color: #0048fd;
 }
 
-.about-page,
-.form-sect .text {
+.about-page {
   padding-left: 16px;
+  margin-left: 6px;
 }
 
-.about-page h2,
-.form-sect h2 {
+.about-page h2 {
   color: #1a2236;
   font-family: 'Playfair Display', serif;
   font-style: normal;
@@ -234,7 +219,7 @@ form li {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding: 13px 65px;
+  padding: 13px 100px;
   text-decoration: none;
 }
 
@@ -251,16 +236,18 @@ form li {
   background-color: #0048fd;
 }
 
-.lang,
-.framework,
-.skills {
-  width: 289px;
-  height: 289px;
+.lang {
   margin-top: 60px;
+  width: 330px;
+  height: 289px;
+  background-color: #1c528a;
 }
 
-.lang {
-  background-color: #1c528a;
+.framework,
+.skills {
+  width: 330px;
+  height: 289px;
+  margin-top: 20px;
 }
 
 .framework {
@@ -269,15 +256,6 @@ form li {
 
 .skills {
   background-color: #febf52;
-}
-
-footer p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #92dcdc;
 }
 
 .lang p,
@@ -296,84 +274,138 @@ footer p {
 .lang ul,
 .framework ul,
 .skills ul {
-  padding-left: 65px;
+  padding-left: 70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
   color: #fff;
 }
 
-.form-sect {
-  margin-top: 50px;
-  background-color: #f9f9fa;
+span {
+  margin-left: -9px;
 }
 
-form {
-  margin-top: 40px;
-  padding-bottom: 60px;
-}
-
-form input {
-  width: 285px;
-  height: 45px;
-  border: 1px solid #dfdfe0;
-  border-radius: 4px;
-}
-
-.email,
-.name {
+.lan-img {
   display: block;
+  padding-left: 69%;
+  margin-top: -29px;
+}
+
+.fra-img {
+  display: block;
+  padding-left: 72%;
   margin-top: -49px;
-  margin-left: 10px;
-  font-family: 'Poppins', sans-serif;
+}
+
+.ski-img {
+  display: block;
+  padding-left: 69%;
+  margin-top: -55px;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background: #f9f9fa;
+}
+
+section .text h2 {
+  font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 15px;
-  color: #7d7c84;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  padding-left: 35px;
 }
 
-textarea {
-  width: 285px;
-  height: 112px;
-  border: 1px solid #dfdfe0;
-  border-radius: 4px;
-}
-
-.lome {
-  display: block;
-  margin-top: -110px;
-  margin-left: 10px;
+section .text p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #7d7c84;
+  letter-spacing: 0.5px;
+  color: #1a2236;
+  padding-left: 35px;
+  padding-right: 20px;
+  margin-top: -20px;
+  text-align: left;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+section form input {
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  width: 299px;
+  height: 52px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+form textarea {
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  width: 299px;
+  height: 112px;
+  margin-left: 35px;
+  margin-top: -5px;
+}
+
+form button {
+  margin-top: 20px;
+  margin-left: 35px;
+  display: block;
+  background-color: #1a2236;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px 2px;
+  width: 303px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0048fd;
+}
+
+form button:active {
+  background-color: #1c528a;
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: #1a2236;
   padding-left: 16px;
   padding-top: 20px;
-}
-
-.fcv {
-  display: inline-block;
-  margin-left: 10px;
-  margin-bottom: -5px;
+  margin-top: 80px;
 }
 
 .social {
   display: flex;
   justify-content: space-between;
-  margin-right: 15px;
-  padding-bottom: 60px;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding-bottom: 40px;
 }
 
-.social img {
-  margin-top: 10px;
+.fcv {
+  display: inline-block;
+  margin-bottom: -5px;
 }
