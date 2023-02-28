@@ -409,3 +409,22 @@ footer {
   display: inline-block;
   margin-bottom: -6px;
 }
+
+@media only screen and (min-width: 768px) {
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: none;
+    background-color: #fff;
+  
+  }
+  .grid img{
+    display: none;
+  }
+
+  .div1{
+    background: url(images/Rectangle\ 21\ \(1\).png);
+    background-color: #1a2236;
+  }
+  
+}
