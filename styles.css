@@ -381,11 +381,15 @@ form button {
 }
 
 form button:hover {
-  background-color: #0048fd;
+  background-color: #fff;
+  color: #001f6d;
+  border: 1px solid grey;
 }
 
 form button:active {
-  background-color: #1c528a;
+  background-color: #fff;
+  border: 2px solid #001f6d;
+  color: #001f6d;
 }
 
 footer {
