@@ -79,7 +79,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  git clone https://github.com/oluwatobi-fasasi/my-portfolio-website.git
+  git clone https://github.com/oluwatobi-fasasi/my-portfolio-website
 ```
 
 
@@ -153,7 +153,9 @@ No deployments required
 
 - [ ] **add linters for different languages**
 - [ ] **create more flexible CSS**
+
 -[] **create more grid
+
 
 <!-- CONTRIBUTING -->
 
@@ -178,6 +180,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse as well as my code partner (Adams)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
