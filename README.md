@@ -1,41 +1,55 @@
-<a name="readme-top"></a>
-
-
-<!-- TABLE OF CONTENTS -->
-
+# Mobile-project
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [HTML](#html)
-    - [CSS](#css)
- 
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: setup and mobile first <a name="about-project"></a>
+# 📖 Hello Microverse <a name="about-project"></a>
 
-For the first milestone in the process of creating your portfolio website, you will:
+> My project is a simple portfolio setup.
 
-- Set up a new repository and prepare it for development using best practices (e.g. linters).
-- Build the first 2 sections of the mobile website using the template you chose in the previous step.
+**Mobile project setup** is a project 
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### HTML <a name="html"></a>
+### Tech Stack <a name="tech-stack"></a>
 
 
-### CSS <a name="css"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **impressive UI**
+- **user friendly**
+- **great UX**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,44 +57,104 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Developers can use linters to check for errors and bugs. 
 
 ### Prerequisites
 
-- A basic knowledge of HTML & CSS.
-- A basic knowledge of Git & Github
+In order to run this project you need:
+
+
+Example command:
+
+```sh
+ install vs code or any other text editor.
+```
+ 
 
 ### Setup
 
-- Create a "My Portfolio Website" repository.
-- Clone the repository into your local machine.
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  git clone https://github.com/oluwatobi-fasasi/my-portfolio-website
+```
+
+
+### Install
+
+Install this project with:
+
+
+Example command:
+
+```sh
+  node.js V16 and above
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+  use git bash to open in Vs code
+```
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+Example command:
+
+```sh
+Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters 
+```
+
+
+### Deployment
+
+You can deploy this project using:
+
+
+Example:
+
+```sh
+No deployments required
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Author1**
 
-- GitHub: [@Fasasi](https://github.com/oluwatobi-fasasi)
-- LinkedIn: [Fasasi](https://www.linkedin.com/in/fasasi-abdulwasih-oluwatobi-129a8b109/)
-
-👤 **Author2**
-
-- GitHub: [@KAYEMBAJONATHAN](https://github.com/KAYEMBAJONATHAN)
-
-👤 **Author3**
-
-- GitHub: [@Kwaku28](https://github.com/Kwaku28)
+- GitHub: [@Christelle-12](https://github.com/oluwatobi-fasasi)
+- Twitter: [@Chr1Nirere](https://twitter.com/FasasiTobi1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fasasi-abdulwasih-oluwatobi-129a8b109/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will add responsiviness**
-- [ ] **I will add a form**
-- [ ] **I will also add some more pages**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [ ] **add linters for different languages**
+- [ ] **create more flexible CSS**
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -90,24 +164,27 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please follow me on github for more.
+> Follow me on my github if you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my code partners, standup team members.
+I would like to thank Microverse as well as Emmanuel Tofa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/oluwatobi-fasasi/my-portfolio-website/blob/add-license-1/LICENSE.md) licensed.
+This project is [MIT](LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
