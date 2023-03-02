@@ -140,9 +140,9 @@ No deployments required
 
 👤 **Author1**
 
-- GitHub: [@Christelle-12](https://github.com/oluwatobi-fasasi)
-- Twitter: [@Chr1Nirere](https://twitter.com/FasasiTobi1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fasasi-abdulwasih-oluwatobi-129a8b109/)
+- GitHub: [@oluwatobi](https://github.com/oluwatobi-fasasi)
+- Twitter: [@Fasasi](https://twitter.com/FasasiTobi1)
+- LinkedIn: [Fasasi](https://www.linkedin.com/in/fasasi-abdulwasih-oluwatobi-129a8b109/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
