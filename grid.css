@@ -104,11 +104,16 @@ footer a {
   margin-left: 16px;
 }
 
-.loto {
-  width: 375px;
-  background-color: #1a2236;
+.loto1,
+.loto2,
+.loto3,
+.loto4,
+.loto5,
+.loto6{
+    width: 375px;
+    margin: 0;
+    padding: 0;
 }
-
 .loto:first-child {
   background-color: aliceblue;
 }
@@ -437,26 +442,49 @@ nav {
 .fot-img1,
 .fot-img2,
 .shapy,
-.shape5,
+.shape3,
 .shape4,
-.shape3 {
+.shape5,
+.about-shape,
+.txt{
   display: none;
-}
-
-.letsee {
-  display: flex;
-  flex-direction: column;
 }
 
 .card1,
 .card2,
 .card3,
 .card4,
-.card5 {
+.card5,
+.card6 {
   background-color: #1a2236;
-  width: 100%;
+  width: 375px;
   height: 170px;
+  margin: 0;
+  padding: 1.2vw;
 }
+
+.works .card1 p{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .works ul {
+    justify-content: flex-start;
+    /* margin: 2.4vw 0 4.2vw 0; */
+    padding: 0;
+
+  }
+
+  .works li {
+    font-size: 3.3vw;
+    margin: 0 1.2vw 0 0;
+    padding:1.8vw 6.1vw;
+  }
 
 .card5 {
   padding-top: 10px;
@@ -471,13 +499,21 @@ nav {
   header img,
   .card4,
   .lati,
+  .card2,
+  .card3,
+  .card5,
   .cont-img .shape,
   .cont-img .logo {
     display: none;
   }
 
   .dot,
-  .letsee{
+  .letsee,
+  .shapy,
+  .shape3,
+.shape4,
+.shape5,
+.about-shape{
     display: block;
   }
 
@@ -498,6 +534,7 @@ nav {
     display: block;
     width: 100%;
     height: 6.9vw;
+    margin-bottom: 4vw;
   }
 
   nav ul {
@@ -611,6 +648,39 @@ nav {
     grid-column: 4/10;
     grid-row: 1/5;
 }
+.works .card1{
+    position: relative;
+    bottom: 31vw;
+    height: 24.5vw;
+    width: 62.2vw;
+    padding: 4.2vw 0 2.1vw 4.2vw;
+  }
+
+  .works .card1 p{
+    font-size: 4.2vw;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+  }
+
+  .works .card1 a{
+    margin: 0;
+    padding:0.8vw 1.2vw;
+  }
+
+  .works ul {
+    justify-content: flex-start;
+    margin: 2.4vw 0 4.2vw 0;
+    padding: 0;
+
+  }
+  
+  .works li {
+    font-size: 1.38vw;
+    margin: 0 1.2vw 0 0;
+    padding:0.8vw 1.2vw;
+  }
+  
 
 .works .loto1{
     width: 66.6vw;
@@ -641,6 +711,31 @@ nav {
     grid-column: 7/9;
     grid-row: 5/7;
 }
+.works .card6{
+    position: relative;
+    bottom: 15vw;
+    height: 15vw;
+    width: 29vw;
+    padding: 4.2vw 0 2.1vw 4.2vw;
+  }
+
+  .works .card6 p{
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+  }
+
+  .works .card6 a{
+    margin: 0;
+    padding:0.8vw 1.2vw;
+  }
+
+  .works .card6 li {
+    font-size: 1.05vw;
+    margin: 0 1.2vw 0 0;
+    padding:0.8vw 1.2vw;
+  }
 
 .works .loto6{
     width: 33.3vw;
@@ -838,6 +933,8 @@ height: 8.6vw;
 .contact-footer .text-form{
     grid-column: 2/4;
     grid-row: 1/4;
+    width: 45vw;
+    margin: 0 0 9.3vw 0;
 }
 
 .contact-footer .fot-img2{
@@ -849,35 +946,113 @@ height: 8.6vw;
 
 .contact-footer .text h2{
     font-size: 7.64vw;
+    margin: 11.6vw 0 2.7vw 0;
+    padding: 0;
+    text-align: left;
 }
 
 .contact-footer .text p{
     font-size: 1.2vw;
     line-height: 1.8vw;
+    width: 45vw;
+    margin: 0 0 4.2vw 0;
+    text-align: left;
+    padding: 0;
 }
 
 .form-input{
     display: flex;
     justify-content: space-between;
+    width: 45vw;
+    margin: 0 0 1.38vw 0;
+    padding: 0;
 }
 
 .contact-footer form input {
-    width: 17.6vw;
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.8vw;
+line-height: 24px;
+color: #1A2236;
+    width: 21vw;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 1vw;
   }
 
   .contact-footer form textarea {
-    width: 37.6vw;
+    width: 45vw;
     height: 9.7vw;
-    margin:0;
-    padding: 0;
+    align-self: center;
+    margin:0 0 2.7vw 0;
+    padding: 0 0 0 1vw;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.8vw;
+line-height: 24px;
+color: #1A2236;
   }
   .contact-footer form button{
     width: 17.6vw;
     font-size: 1.3vw;
     padding: 1.45vw 1.73vw;
     margin: 0;
+    align-self: center;
 
   }
+  .contact-footer form #name{
+    margin-right: 2vw;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 3.3vw 11.1vw;
+    align-content: center;
+  }
+
+  .fot1 a {
+    padding: 0;
+    margin: 0;
+  }
+
+  .social {
+    justify-content: space-evenly;
+    margin:0;
+    padding: 0;
+    align-content: center;
+  }
+
+  .social a {
+    padding: 0;
+    margin: 0 0.7vw;
+  }
+
+  .social a img{
+    width: 1.6vw;
+    height: 1.6vw;
+  }
+
+  .form-input .input-name,
+  .form-input .input-email{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 18px;
+    color: #7D7C84;
+  }
+  .txt{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 18px;
+    color: #7D7C84;
+  }
+
+  
 }
