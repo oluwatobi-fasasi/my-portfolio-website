@@ -435,7 +435,11 @@ nav {
 .dati,
 .abt-shape,
 .fot-img1,
-.fot-img2 {
+.fot-img2,
+.shapy,
+.shape5,
+.shape4,
+.shape3 {
   display: none;
 }
 
@@ -468,8 +472,7 @@ nav {
   .card4,
   .lati,
   .cont-img .shape,
-  .cont-img .logo,
-  .loto2 {
+  .cont-img .logo {
     display: none;
   }
 
@@ -611,14 +614,13 @@ nav {
 
 .works .loto1{
     width: 66.6vw;
-    height: 40.4vw;
+    height: 38.3vw;
 }
 
 .works .grid2{
     grid-column: 1/4;
     grid-row: 5/8;
     height: 18.75vw;
-    width: 33.3vw;
     align-self: flex-end;
     margin: 0;
     padding: 0;
@@ -627,13 +629,255 @@ nav {
 .works .shapy{
     grid-column: 4/6;
     grid-row: 5/8;
-    width: 44.4vw;
     height: 22.2vw;
 }
 
 .works .loto2{
-    /* width: 44.4vw; */
+    height: 18.75vw;
+    width: 33.3vw;
 }
 
+.works .grid6{
+    grid-column: 7/9;
+    grid-row: 5/7;
+}
 
+.works .loto6{
+    width: 33.3vw;
+    height: 16.8vw;
+}
+
+.works .grid5{
+    grid-column: 7/9;
+    grid-row: 7/9;
+}
+
+.works .loto5{
+    width: 33.3vw;
+    height: 16.8vw;
+}
+
+.works .grid3{
+    grid-column: 1/6;
+    grid-row: 8/11;
+}
+.works .loto3{
+    width: 55.5vw;
+    height: 30.2vw;
+}
+
+.works .shape3{
+    grid-column: 6/10;
+    grid-row: 9/11;
+    width: 44.4vw;
+    height: 19.2vw;
+}
+
+.works .shape5-4{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1/6;
+    grid-row: 11/12;
+}
+
+.works .shape5{
+height: 8.6vw;
+}
+.works .shape4{
+    width: 6vw;
+    height: 6vw;
+}
+
+.works .grid4{
+    grid-column: 6/9;
+    grid-row: 11/13;
+}
+
+.works .loto4{
+    width:33.3vw;
+    height: 18.75vw;
+}
+
+.about-page{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin: 15vw 11vw 0 11vw;
+}
+
+.about-cards{
+    display: grid;
+    grid-template-columns: 20vw 4.6vw 15.4vw;
+    grid-template-rows: 20vw 5.2vw 14.8vw;
+}
+
+.about-cards .lang{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 20vw;
+}
+.about-cards .framework{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 20vw;
+}
+
+.about-cards .skills{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    width: 20vw;
+    height: 20vw;
+}
+
+.about-cards .about-shape{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 15.4vw;
+    
+}
+
+.about-cards .framework,
+.about-cards .lang,
+.about-cards .skills{
+    margin: 0;
+    padding: 0;
+}
+
+.about-cards .framework p,
+.about-cards .lang p,
+.about-cards .skills p{
+    margin: 2.4vw 0 0 2.4vw;
+    padding: 0;
+    font-size: 1.4vw;
+}
+.about-cards .framework ul,
+.about-cards .lang ul,
+.about-cards .skills ul{
+    margin: 0 0 0 3.4vw;
+    padding: 0;
+}
+.about-cards .framework ul li,
+.about-cards .lang ul li,
+.about-cards .skills ul li{
+    font-size: 1.2vw;
+    line-height: 2vw;
+}
+.about-cards .framework ,
+.about-cards .lang,
+.about-cards .skills{
+    margin: 0;
+    padding: 0;
+}
+.about-cards .lan-img,
+.about-cards .fra-img,
+.about-cards .ski-img{
+    position: relative;
+    bottom: 2vw;
+    left: 13vw;
+    width: 7.1vw;
+    height: 7.1vw;
+    padding: 0;
+    margin: 0;
+}
+.about-cards .fra-img{
+    position: relative;
+    bottom: 3.5vw;
+    left: 13vw;
+    
+}
+.about-cards .ski-img{
+    position: relative;
+    bottom: 3.5vw;
+    left: 13vw;
+}
+.about-cards .lan-img{
+    position: relative;
+    bottom: 1.5vw;
+    left: 13vw;
+}
+
+.about-page .about-text{
+    margin-left: 6.7vw;
+    width: 31vw;
+}
+.about-page .about-text h2{
+    margin-top: 0;
+}
+.about-page .about-text p{
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    padding: 0;
+    margin-bottom: 2.9vw;
+}
+.about-page .about-text a{
+    width: 17.6vw;
+    font-size: 1.25vw;
+    padding: 1.5vw 3.5vw;
+    margin: 0;
+}
+.about-page .about-text img{
+    width: 1.67vw;
+    height: 1.67vw;
+}
+
+.contact-footer{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-columns: 25vw 25vw 25vw;
+}
+
+.contact-footer .fot-img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 24.3vw;
+    width: 18.3vw;
+}
+
+.contact-footer .text-form{
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+.contact-footer .fot-img2{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    height: 24.3vw;
+    width: 24.3vw;
+}
+
+.contact-footer .text h2{
+    font-size: 7.64vw;
+}
+
+.contact-footer .text p{
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.form-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-footer form input {
+    width: 17.6vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-footer form textarea {
+    width: 37.6vw;
+    height: 9.7vw;
+    margin:0;
+    padding: 0;
+  }
+  .contact-footer form button{
+    width: 17.6vw;
+    font-size: 1.3vw;
+    padding: 1.45vw 1.73vw;
+    margin: 0;
+
+  }
 }
