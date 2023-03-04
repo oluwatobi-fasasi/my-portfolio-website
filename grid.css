@@ -109,11 +109,12 @@ footer a {
 .loto3,
 .loto4,
 .loto5,
-.loto6{
-    width: 375px;
-    margin: 0;
-    padding: 0;
+.loto6 {
+  width: 375px;
+  margin: 0;
+  padding: 0;
 }
+
 .loto:first-child {
   background-color: aliceblue;
 }
@@ -146,38 +147,70 @@ footer a {
   border: none;
 }
 
+.lang p,
+.framework p,
+.skills p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
 
+section .text p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #1a2236;
+  padding-left: 35px;
+  padding-right: 20px;
+  margin-top: -20px;
+  text-align: left;
+}
 
 .works .card1 p,
 .works .card2 p,
 .works .card3 p,
 .works .card4 p,
 .works .card5 p,
-.works .card6 p{
+.works .card6 p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
   line-height: 80%;
-  padding:7vw 0 0 5vw;
-  margin:-1.2vw 0 0 0;
+  padding: 7vw 0 0 5vw;
+  margin: -1.2vw 0 0 0;
 }
 
 .works ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 0;
 }
 
-.works  .card1 li,
-.works  .card2 li,
-.works  .card3 li,
-.works  .card4 li,
-.works  .card5 li,
-.works  .card6 li{
+.works li {
+  font-size: 3.3vw;
+  margin: 0;
+  padding: 0;
+}
+
+.works .card1 li,
+.works .card2 li,
+.works .card3 li,
+.works .card4 li,
+.works .card5 li,
+.works .card6 li {
   background-color: #98dede;
-  margin: 0px 0 20px 20px;
-  padding:5px 10px;
+  margin: 0 0 20px 20px;
+  padding: 5px 10px;
   color: #1a2236;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -273,19 +306,6 @@ footer a {
   background-color: #febf52;
 }
 
-.lang p,
-.framework p,
-.skills p {
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 30px;
-  padding-left: 50px;
-  padding-top: 40px;
-}
-
 .lang ul,
 .framework ul,
 .skills ul {
@@ -335,20 +355,6 @@ section .text h2 {
   line-height: 100%;
   color: #1a2236;
   padding-left: 35px;
-}
-
-section .text p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.5px;
-  color: #1a2236;
-  padding-left: 35px;
-  padding-right: 20px;
-  margin-top: -20px;
-  text-align: left;
 }
 
 section form {
@@ -450,7 +456,7 @@ nav {
 .shape4,
 .shape5,
 .about-shape,
-.txt{
+.txt {
   display: none;
 }
 
@@ -464,29 +470,14 @@ nav {
   width: 375px;
   height: 170px;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-
-  .works ul {
-    justify-content: flex-start;
-    padding: 0;
-
-  }
-
-  .works li {
-    font-size: 3.3vw;
-    margin:0;
-    padding:0;
-  }
-
-  label{
-    display: none;
-  }
+label {
+  display: none;
+}
 
 /* THis is a coment section................................................................. */
-
-
 
 @media only screen and (min-width: 768px) {
   header div,
@@ -504,9 +495,9 @@ nav {
   .letsee,
   .shapy,
   .shape3,
-.shape4,
-.shape5,
-.about-shape{
+  .shape4,
+  .shape5,
+  .about-shape {
     display: block;
   }
 
@@ -570,7 +561,7 @@ nav {
   .intro .dot {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-    width:100%;
+    width: 100%;
     align-self: flex-end;
   }
 
@@ -594,11 +585,12 @@ nav {
     padding-bottom: 3.6vw;
     color: #1a2236;
   }
-.info > a{
+
+  .info > a {
     font-size: 1.25vw;
     width: 17.6vw;
     padding: 1.38vw 1.73vw;
-}
+  }
 
   .geo {
     display: block;
@@ -611,33 +603,35 @@ nav {
     display: none;
   }
 
-  .works{
+  .works {
     display: grid;
     grid-template-columns: 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw;
     grid-template-rows: 11.1vw 11.1vw 11.1vw 5.55vw 11.1vw 5.55vw 5.55vw 11.1vw 11.1vw 8vw 11.1vw 11.1vw;
     margin-top: 14.6vw;
   }
 
-  .works  h2{
+  .works h2 {
     grid-column: 1 /3;
-    grid-row: 1 / 4; 
+    grid-row: 1 / 4;
     transform: rotate(-90deg);
     align-self: center;
     font-size: 7.64vw;
     padding: 0;
     margin: 0;
   }
-.works .dot{
+
+  .works .dot {
     grid-column: 3 /4;
     grid-row: 1/2;
     width: 11vw;
-}
+  }
 
-.works .grid1{
+  .works .grid1 {
     grid-column: 4/10;
     grid-row: 1/5;
-}
-.works .card1{
+  }
+
+  .works .card1 {
     position: relative;
     bottom: 31vw;
     height: 24.5vw;
@@ -645,62 +639,71 @@ nav {
     padding: 4.2vw 0 2.1vw 4.2vw;
   }
 
-  .works .card1 p{
+  .works .card1 p {
     font-size: 4.2vw;
     font-weight: 700;
     padding: 0;
     margin: 0;
   }
 
-  .works .card1 a{
+  .fot1 a {
+    padding: 0;
     margin: 0;
-    padding:0.8vw 1.2vw;
+  }
+
+  .social a {
+    padding: 0;
+    margin: 0 0.7vw;
+  }
+
+  .works .card1 a {
+    margin: 0;
+    padding: 0.8vw 1.2vw;
   }
 
   .works ul {
     justify-content: flex-start;
     margin: 2.4vw 0 4.2vw 0;
     padding: 0;
-
   }
-  
-  .works  .card1 li {
+
+  .works .card1 li {
     font-size: 1.38vw;
     margin: 0 1.2vw 0 0;
-    padding:0.8vw 1.2vw;
+    padding: 0.8vw 1.2vw;
   }
-  
 
-.works .loto1{
+  .works .loto1 {
     width: 66.6vw;
     height: 38.3vw;
-}
+  }
 
-.works .grid2{
+  .works .grid2 {
     grid-column: 1/4;
     grid-row: 5/8;
     height: 18.75vw;
     align-self: flex-end;
     margin: 0;
     padding: 0;
-}
+  }
 
-.works .shapy{
+  .works .shapy {
     grid-column: 4/6;
     grid-row: 5/8;
     height: 22.2vw;
-}
+  }
 
-.works .loto2{
+  .works .loto2 {
     height: 18.75vw;
     width: 33.3vw;
-}
+  }
 
-.works .grid6{
+  .works .grid6 {
     grid-column: 7/9;
     grid-row: 5/7;
-}
-.works .card6{
+  }
+
+  .works .card6 {
     position: relative;
     bottom: 15vw;
     height: 15vw;
@@ -708,155 +711,160 @@ nav {
     padding: 4.2vw 0 2.1vw 4.2vw;
   }
 
-  .works .card6 p{
+  .works .card6 p {
     font-size: 2vw;
     font-weight: 700;
     padding: 0;
     margin: 0;
   }
 
-  .works .card6 a{
+  .works .card6 a {
     margin: 0;
-    padding:0.8vw 1.2vw;
+    padding: 0.8vw 1.2vw;
   }
 
   .works .card6 li {
     font-size: 1.05vw;
     margin: 0 1.2vw 0 0;
-    padding:0.8vw 1.2vw;
+    padding: 0.8vw 1.2vw;
   }
 
-.works .loto6{
+  .works .loto6 {
     width: 33.3vw;
     height: 16.8vw;
-}
+  }
 
-.works .grid5{
+  .works .grid5 {
     grid-column: 7/9;
     grid-row: 7/9;
-}
+  }
 
-.works .loto5{
+  .works .loto5 {
     width: 33.3vw;
     height: 16.8vw;
-}
+  }
 
-.works .grid3{
+  .works .grid3 {
     grid-column: 1/6;
     grid-row: 8/11;
-}
-.works .loto3{
+  }
+
+  .works .loto3 {
     width: 55.5vw;
     height: 30.2vw;
-}
+  }
 
-.works .shape3{
+  .works .shape3 {
     grid-column: 6/10;
     grid-row: 9/11;
     width: 44.4vw;
     height: 19.2vw;
-}
+  }
 
-.works .shape5-4{
+  .works .shape5-4 {
     display: flex;
     justify-content: space-between;
     grid-column: 1/6;
     grid-row: 11/12;
-}
+  }
 
-.works .shape5{
-height: 8.6vw;
-}
-.works .shape4{
+  .works .shape5 {
+    height: 8.6vw;
+  }
+
+  .works .shape4 {
     width: 6vw;
     height: 6vw;
-}
+  }
 
-.works .grid4{
+  .works .grid4 {
     grid-column: 6/9;
     grid-row: 11/13;
-}
+  }
 
-.works .loto4{
-    width:33.3vw;
+  .works .loto4 {
+    width: 33.3vw;
     height: 18.75vw;
-}
+  }
 
-.about-page{
+  .about-page {
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
     margin: 15vw 11vw 0 11vw;
-}
+  }
 
-.about-cards{
+  .about-cards {
     display: grid;
     grid-template-columns: 20vw 4.6vw 15.4vw;
     grid-template-rows: 20vw 5.2vw 14.8vw;
-}
+  }
 
-.about-cards .lang{
+  .about-cards .lang {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 20vw;
     height: 20vw;
-}
-.about-cards .framework{
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-cards .framework {
     grid-column: 2/4;
     grid-row: 1/2;
     width: 20vw;
     height: 20vw;
-}
+    margin: 0;
+    padding: 0;
+  }
 
-.about-cards .skills{
+  .about-cards .skills {
     grid-column: 1/2;
     grid-row: 2/4;
     width: 20vw;
     height: 20vw;
-}
+    margin: 0;
+    padding: 0;
+  }
 
-.about-cards .about-shape{
+  .about-cards .about-shape {
     grid-column: 3/4;
     grid-row: 3/4;
     width: 15.4vw;
-    
-}
+  }
 
-.about-cards .framework,
-.about-cards .lang,
-.about-cards .skills{
-    margin: 0;
-    padding: 0;
-}
-
-.about-cards .framework p,
-.about-cards .lang p,
-.about-cards .skills p{
+  .about-cards .framework p,
+  .about-cards .lang p,
+  .about-cards .skills p {
     margin: 2.4vw 0 0 2.4vw;
     padding: 0;
     font-size: 1.4vw;
-}
-.about-cards .framework ul,
-.about-cards .lang ul,
-.about-cards .skills ul{
+  }
+
+  .about-cards .framework ul,
+  .about-cards .lang ul,
+  .about-cards .skills ul {
     margin: 0 0 0 3.4vw;
     padding: 0;
-}
-.about-cards .framework ul li,
-.about-cards .lang ul li,
-.about-cards .skills ul li{
+  }
+
+  .about-cards .framework ul li,
+  .about-cards .lang ul li,
+  .about-cards .skills ul li {
     font-size: 1.2vw;
     line-height: 2vw;
-}
-.about-cards .framework ,
-.about-cards .lang,
-.about-cards .skills{
+  }
+
+  .about-cards .framework,
+  .about-cards .lang,
+  .about-cards .skills {
     margin: 0;
     padding: 0;
-}
-.about-cards .lan-img,
-.about-cards .fra-img,
-.about-cards .ski-img{
+  }
+
+  .about-cards .lan-img,
+  .about-cards .fra-img,
+  .about-cards .ski-img {
     position: relative;
     bottom: 2vw;
     left: 13vw;
@@ -864,106 +872,117 @@ height: 8.6vw;
     height: 7.1vw;
     padding: 0;
     margin: 0;
-}
-.about-cards .fra-img{
+  }
+
+  .about-cards .fra-img {
     position: relative;
     bottom: 3.5vw;
     left: 13vw;
-    
-}
-.about-cards .ski-img{
+  }
+
+  .about-cards .ski-img {
     position: relative;
     bottom: 3.5vw;
     left: 13vw;
-}
-.about-cards .lan-img{
+  }
+
+  .about-cards .lan-img {
     position: relative;
     bottom: 1.5vw;
     left: 13vw;
-}
+  }
 
-.about-page .about-text{
+  .about-page .about-text {
     margin-left: 6.7vw;
     width: 31vw;
-}
-.about-page .about-text h2{
+  }
+
+  .about-page .about-text h2 {
     margin-top: 0;
-}
-.about-page .about-text p{
+  }
+
+  .about-page .about-text p {
     font-size: 1.2vw;
     line-height: 1.5vw;
     padding: 0;
     margin-bottom: 2.9vw;
-}
-.about-page .about-text a{
+  }
+
+  .about-page .about-text a {
     width: 17.6vw;
     font-size: 1.25vw;
     padding: 1.5vw 3.5vw;
     margin: 0;
-}
-.about-page .about-text img{
+  }
+
+  .social a img {
+    width: 1.6vw;
+    height: 1.6vw;
+  }
+
+  .about-page .about-text img {
     width: 1.67vw;
     height: 1.67vw;
-}
+  }
 
-.contact-footer{
+  .contact-footer {
     display: grid;
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-columns: 25vw 25vw 25vw;
-}
+  }
 
-.contact-footer .fot-img1{
+  .contact-footer .fot-img1 {
     grid-column: 1/2;
     grid-row: 1/2;
     height: 24.3vw;
     width: 18.3vw;
-}
+  }
 
-.contact-footer .text-form{
+  .contact-footer .text-form {
     grid-column: 2/4;
     grid-row: 1/4;
     width: 45vw;
     margin: 0 0 9.3vw 0;
-}
+  }
 
-.contact-footer .fot-img2{
+  .contact-footer .fot-img2 {
     grid-column: 4/5;
     grid-row: 3/4;
     height: 24.3vw;
     width: 24.3vw;
-}
+  }
 
-.contact-footer .text h2{
+  .contact-footer .text h2 {
     font-size: 7.64vw;
     margin: 11.6vw 0 2.7vw 0;
     padding: 0;
     text-align: left;
-}
+  }
 
-.contact-footer .text p{
+  .contact-footer .text p {
     font-size: 1.2vw;
     line-height: 1.8vw;
     width: 45vw;
     margin: 0 0 4.2vw 0;
     text-align: left;
     padding: 0;
-}
+  }
 
-.form-input{
+  .form-input {
     display: flex;
     justify-content: space-between;
     width: 45vw;
     margin: 0 0 1.38vw 0;
     padding: 0;
-}
+  }
 
-.contact-footer form input {
-  font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 1.8vw;
-line-height: 24px;
-color: #1A2236;
+  .contact-footer form input {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 24px;
+    color: #1a2236;
     width: 21vw;
     margin: 0;
     padding: 0 0 0 1vw;
@@ -973,24 +992,25 @@ color: #1A2236;
     width: 45vw;
     height: 9.7vw;
     align-self: center;
-    margin:0 0 2.7vw 0;
+    margin: 0 0 2.7vw 0;
     padding: 0 0 0 1vw;
     font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 1.8vw;
-line-height: 24px;
-color: #1A2236;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 24px;
+    color: #1a2236;
   }
-  .contact-footer form button{
+
+  .contact-footer form button {
     width: 17.6vw;
     font-size: 1.3vw;
     padding: 1.45vw 1.73vw;
     margin: 0;
     align-self: center;
-
   }
-  .contact-footer form #name{
+
+  .contact-footer form #name {
     margin-right: 2vw;
   }
 
@@ -1002,50 +1022,36 @@ color: #1A2236;
     align-content: center;
   }
 
-  .fot1 a {
-    padding: 0;
-    margin: 0;
-  }
-
   .social {
     justify-content: space-evenly;
-    margin:0;
+    margin: 0;
     padding: 0;
     align-content: center;
   }
 
-  .social a {
-    padding: 0;
-    margin: 0 0.7vw;
-  }
 
-  .social a img{
-    width: 1.6vw;
-    height: 1.6vw;
-  }
 
   .form-input .input-name,
-  .form-input .input-email{
+  .form-input .input-email {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2vw;
     line-height: 18px;
-    color: #7D7C84;
+    color: #7d7c84;
   }
-  .txt{
+
+  .txt {
     display: inline;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2vw;
     line-height: 18px;
-    color: #7D7C84;
+    color: #7d7c84;
   }
 
-  label{
+  label {
     display: inline;
   }
-
-  
 }
