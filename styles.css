@@ -573,6 +573,19 @@ label {
     line-height: 100%;
     color: #1a2236;
     padding-bottom: 1vw;
+    animation-name: name-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+
+  @keyframes name-animation {
+    from {
+      color: transparent;
+    }
+
+    to {
+      color: #1a2236;
+    }
   }
 
   .para {
