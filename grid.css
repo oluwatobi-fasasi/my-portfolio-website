@@ -977,7 +977,7 @@ label {
   }
 
   .contact-footer form input {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.8vw;
@@ -994,7 +994,7 @@ label {
     align-self: center;
     margin: 0 0 2.7vw 0;
     padding: 0 0 0 1vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.8vw;
@@ -1029,11 +1029,9 @@ label {
     align-content: center;
   }
 
-
-
   .form-input .input-name,
   .form-input .input-email {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2vw;
@@ -1043,7 +1041,7 @@ label {
 
   .txt {
     display: inline;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2vw;
