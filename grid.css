@@ -146,30 +146,38 @@ footer a {
   border: none;
 }
 
-.project-name {
+
+
+.works .card1 p,
+.works .card2 p,
+.works .card3 p,
+.works .card4 p,
+.works .card5 p,
+.works .card6 p{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
   line-height: 80%;
-  padding-left: 16px;
-  margin-bottom: 0;
+  padding:7vw 0 0 5vw;
+  margin:-1.2vw 0 0 0;
 }
 
 .works ul {
   display: flex;
-  list-style-type: none;
-  justify-content: left;
-  margin-bottom: 30px;
-  margin-top: 10px;
+  justify-content: space-between;
 }
 
-.works li {
+.works  .card1 li,
+.works  .card2 li,
+.works  .card3 li,
+.works  .card4 li,
+.works  .card5 li,
+.works  .card6 li{
   background-color: #98dede;
-  margin-left: -24px;
-  margin-right: auto;
-  padding: 10px;
+  margin: 0px 0 20px 20px;
+  padding:5px 10px;
   color: #1a2236;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -366,7 +374,7 @@ form textarea {
   width: 299px;
   height: 112px;
   margin-left: 35px;
-  margin-top: -5px;
+  margin-top: 10px;
 }
 
 form button {
@@ -425,10 +433,6 @@ nav {
   display: none;
 }
 
-.hid {
-  display: inline;
-}
-
 .dot,
 .geo,
 .loto3b,
@@ -460,45 +464,34 @@ nav {
   width: 375px;
   height: 170px;
   margin: 0;
-  padding: 1.2vw;
+  padding:0;
 }
 
-.works .card1 p{
-    display: inline;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 80%;
-    margin: 0;
-    padding: 0;
-  }
+
   .works ul {
     justify-content: flex-start;
-    /* margin: 2.4vw 0 4.2vw 0; */
     padding: 0;
 
   }
 
   .works li {
     font-size: 3.3vw;
-    margin: 0 1.2vw 0 0;
-    padding:1.8vw 6.1vw;
+    margin:0;
+    padding:0;
   }
 
-.card5 {
-  padding-top: 10px;
-}
+  label{
+    display: none;
+  }
 
-.lati {
-  display: block;
-}
+/* THis is a coment section................................................................. */
+
+
 
 @media only screen and (min-width: 768px) {
   header div,
   header img,
   .card4,
-  .lati,
   .card2,
   .card3,
   .card5,
@@ -618,10 +611,6 @@ nav {
     display: none;
   }
 
-  .works .hid {
-    display: none;
-  }
-
   .works{
     display: grid;
     grid-template-columns: 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw;
@@ -675,7 +664,7 @@ nav {
 
   }
   
-  .works li {
+  .works  .card1 li {
     font-size: 1.38vw;
     margin: 0 1.2vw 0 0;
     padding:0.8vw 1.2vw;
@@ -1052,6 +1041,10 @@ color: #1A2236;
     font-size: 1.2vw;
     line-height: 18px;
     color: #7D7C84;
+  }
+
+  label{
+    display: inline;
   }
 
   
