@@ -12,7 +12,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -51,6 +51,11 @@
 - **user friendly**
 - **great UX**
 
+### Live Demo <a name="live-demo"></a>
+
+Click [here](https://oluwatobi-fasasi.github.io/) to visit my portfolio website.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -66,9 +71,8 @@ In order to run this project you need:
 
 Example command:
 
-```sh
  install vs code or any other text editor.
-```
+
  
 
 ### Setup
@@ -121,14 +125,7 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 
 ### Deployment
 
-You can deploy this project using:
-
-
-Example:
-
-```sh
-No deployments required
-```
+Github Page
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
