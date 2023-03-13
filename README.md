@@ -50,6 +50,7 @@
 - **impressive UI**
 - **user friendly**
 - **great UX**
+- **responsive mobile menu**
 
 ### Live Demo <a name="live-demo"></a>
 
@@ -151,7 +152,8 @@ Github Page
 - [ ] **add linters for different languages**
 - [ ] **create more flexible CSS**
 
--[] **create more grid
+- [ ] **create more grid**
+- [ ] **add mobile menu**
 
 
 <!-- CONTRIBUTING -->
